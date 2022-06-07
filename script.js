@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Paani Chhalke(Haryanvi)", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "De Taali(Bhool Bhulaiya)", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Laung Laachi(Bhojpuri)", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Lori(Sapna Chaudhri)", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Zindagi Ban Gye Ho Tum(Bhojpuri)", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Red Flag", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Love Me More", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Prisionera", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Wine My body", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Zindagi Ban Gye Ho Tum", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "O Raahi Chal(Hindi)", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Sakhiyaan - Hindi", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Step By Step(Romantic)- English", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "True Love(English)", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Step By Step(Romantic)", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "True Love", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
